@@ -1,0 +1,38 @@
+#!/bin/bash
+# mostra un po'di cose utili
+
+# colori
+RED="\e[31m"
+GREEN="\e[32m"
+YELLOW="\e[1;33"
+LIGHT_RED="\e[91m"
+GRAY="\e[90m"
+ENDCOLOR="\e[0m"
+
+# ---------------------------------------------------------
+
+# mostra l'ora corrente
+echo -n -e "${GRAY}Time${ENDCOLOR}: "
+hour
+
+# ---------------------------------------------------------
+
+# mostra il livello della batteria
+if batt > 50;
+then
+	echo -n -e "${GRAY}Battery${ENDCOLOR}: "
+
+elif batt < 50 && batt > 25;
+then
+	echo -n -e "{GRAY}Battery${ENDCOLOR}: "
+
+else
+	echo -n -e "${GRAY}Battery${ENDCOLOR}: "
+fi
+batt 
+
+# ---------------------------------------------------------
+
+# mostra la ram
+echo -e "${GRAY}Ram${ENDCOLOR}: "
+ram | sed "s/Mem//"

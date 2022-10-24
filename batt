@@ -1,0 +1,4 @@
+#!/bin/bash
+# mostra il livello di batteria corrente (togliendo il \n alla fine del comando cat)
+cat /sys/class/power_supply/BAT1/capacity | tr -d '\n'
+echo "%"

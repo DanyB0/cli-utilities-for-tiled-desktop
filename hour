@@ -1,0 +1,3 @@
+# !/bin/bash
+# visualizza l'ora corrente
+date +"%T"

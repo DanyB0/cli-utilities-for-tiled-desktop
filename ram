@@ -1,0 +1,6 @@
+#!/bin/bash
+# visualizza la ram
+echo -n "    "
+grep MemTotal /proc/meminfo | sed "s/Mem//"
+echo -n "    "
+grep MemAvailable /proc/meminfo | sed "s/Mem//"
