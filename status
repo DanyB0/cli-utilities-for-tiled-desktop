@@ -24,7 +24,7 @@ then
 
 elif batt < 50 && batt > 25;
 then
-	echo -n -e "{GRAY}Battery${ENDCOLOR}: "
+	echo -n -e "${GRAY}Battery${ENDCOLOR}: "
 
 else
 	echo -n -e "${GRAY}Battery${ENDCOLOR}: "
