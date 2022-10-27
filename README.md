@@ -1,4 +1,4 @@
-# cli-utility-4-tiled-desktop
+# cli-utility-for-tiled-desktop
 some useful scripts for when you have a tiled desktop and you can't see the hour or the battery
 # description
 - **batt**: display the battery
