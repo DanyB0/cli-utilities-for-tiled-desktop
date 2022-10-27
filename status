@@ -18,17 +18,7 @@ hour
 # ---------------------------------------------------------
 
 # mostra il livello della batteria
-if batt > 50;
-then
-	echo -n -e "${GRAY}Battery${ENDCOLOR}: "
-
-elif batt < 50 && batt > 25;
-then
-	echo -n -e "${GRAY}Battery${ENDCOLOR}: "
-
-else
-	echo -n -e "${GRAY}Battery${ENDCOLOR}: "
-fi
+echo -n -e "${GRAY}Battery${ENDCOLOR}: "
 batt 
 
 # ---------------------------------------------------------
