@@ -6,7 +6,7 @@ some useful scripts for tiled desktops without the topbar
 - **hour**: display the hour
 - **ram**: display the ram
 - **status**: all the above combined
-- **bright**: change the screen brightness (useful with Hyprland)
+- **bright**: change the screen brightness (useful with Hyprland if you don't want to create bindings)
 - **lyrics**: display the lyrics of a song in the default browser
 
 # usage
