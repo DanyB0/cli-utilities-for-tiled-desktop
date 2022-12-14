@@ -7,6 +7,7 @@ some useful scripts for when you have a tiled desktop and you can't see the hour
 - **ram**: display the ram
 - **status**: all the above combined
 - **bright**: change the screen brightness (useful with Hyprland)
+- **lyrics**: display the lyrics of a song in the default browser
 
 # usage
 - make the scripts executable with ```chmod +x NAME_OF_THE_SCRIPT```
@@ -14,3 +15,4 @@ some useful scripts for when you have a tiled desktop and you can't see the hour
 
 # notes
 - for the brightness you have to create some aliases in your `.bashrc` file
+- for the lyrics you have to use `"<SONG_NAME>"` if the song contains spaces
