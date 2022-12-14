@@ -1,5 +1,0 @@
-echo
-echo "options: 30, 50, 70, 100"
-echo "command: bright{option}"
-echo "example: bright70"
-echo
