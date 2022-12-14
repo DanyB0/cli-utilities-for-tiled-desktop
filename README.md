@@ -1,5 +1,5 @@
 # cli-utility-for-tiled-desktop
-some useful scripts for when you have a tiled desktop and you can't see the hour or the battery
+some useful scripts for tiled desktops without the topbar
 
 # description
 - **batt**: display the battery
