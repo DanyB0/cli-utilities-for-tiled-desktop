@@ -1,4 +1,4 @@
 #!/bin/bash
-# cerca il testo di una canzone su firefox
+# cerca il testo di una canzone su browser di default
 # $1 è il primo elemento dopo la chiamata del file
 xdg-open  https://www.google.com/search?q="$1 "testo 1>/dev/null 2>&1 &
