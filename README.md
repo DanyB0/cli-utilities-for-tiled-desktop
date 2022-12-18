@@ -1,4 +1,4 @@
-# cli-utility-for-tiled-desktop
+# tiled-scripts
 some useful scripts for tiled desktops without the topbar
 
 # description
