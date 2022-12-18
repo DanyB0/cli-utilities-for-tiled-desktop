@@ -10,7 +10,7 @@ some useful scripts for tiled desktops without the topbar
 - **lyrics**: display the lyrics of a song in the default browser
 
 # usage
-- make the scripts executable with ```chmod +x NAME_OF_THE_SCRIPT```
+- make the scripts executable with ```sudo chmod +x NAME_OF_THE_SCRIPT```
 - put the scripts in the ```/bin``` folder
 
 # notes
